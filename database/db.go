@@ -1,7 +1,8 @@
-package db
+package database
 
 import (
 	"fmt"
+	"github.com/braulio94/base_project/models"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/joho/godotenv"
@@ -30,7 +31,13 @@ func init() {
 	}
 
 	db = conn
-	//db.Debug().AutoMigrate(&Account{}, &Contact{})
+	db.Debug().AutoMigrate(
+		&models.Project{},
+		&models.Status{},
+		&models.Menu{},
+		&models.SubMenu{},
+		&models.SubmenuItem{},
+	)
 }
 
 func GetDB() *gorm.DB {
