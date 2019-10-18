@@ -1,7 +1,6 @@
 package database
 
 import (
-	"fmt"
 	"github.com/braulio94/base_project/models"
 	"github.com/google/uuid"
 	"github.com/jinzhu/gorm"
