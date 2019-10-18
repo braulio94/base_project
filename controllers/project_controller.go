@@ -1,4 +1,4 @@
-package repositories
+package controllers
 
 import "github.com/braulio94/base_project/models"
 
