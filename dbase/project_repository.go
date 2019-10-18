@@ -1,9 +1,9 @@
-package database
+package dbase
 
 import (
 	"github.com/braulio94/base_project/models"
-	"github.com/google/uuid"
 	"github.com/jinzhu/gorm"
+	"github.com/satori/go.uuid"
 )
 
 type ProjectRepository interface {

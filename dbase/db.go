@@ -1,8 +1,7 @@
-package database
+package dbase
 
 import (
 	"fmt"
-	"github.com/braulio94/base_project/models"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/joho/godotenv"
@@ -11,7 +10,7 @@ import (
 
 var db *gorm.DB
 
-func init() {
+func InitDB() {
 	e := godotenv.Load()
 	if e != nil {
 		fmt.Print(e)
@@ -31,13 +30,13 @@ func init() {
 	}
 
 	db = conn
-	db.Debug().AutoMigrate(
-		&models.Project{},
-		&models.Status{},
-		&models.Menu{},
-		&models.SubMenu{},
-		&models.SubmenuItem{},
-	)
+	//db.Debug().AutoMigrate(
+	//	&models.Project{},
+	//	&models.Status{},
+	//	&models.Menu{},
+	//	&models.SubMenu{},
+	//	&models.SubmenuItem{},
+	//)
 }
 
 func GetDB() *gorm.DB {
