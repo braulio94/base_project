@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="GoTestRunConfiguration" name="go test github.com/braulio94/base_project/dbase" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d44361b1-c3ee-427b-b2c2-18b54b7c8917" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/braulio_cassule.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbase/project_repository_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0bf62bf1-43a1-454d-92b3-9b08a3c03b48.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0bf62bf1-43a1-454d-92b3-9b08a3c03b48.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0bf62bf1-43a1-454d-92b3-9b08a3c03b48/storage_v2/_src_/database/project.GUuQ7Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0bf62bf1-43a1-454d-92b3-9b08a3c03b48/storage_v2/_src_/database/project.GUuQ7Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/dbase/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/project_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/dbase/project_repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/project_repository_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbase/project_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/dbase/project_repository.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbase/project_repository_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/dbase/project_repository_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/project.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/project.go" afterDir="false" />
     </list>
@@ -70,7 +69,104 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dbase/project_repository_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#15#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="589" selection-start-line="589" selection-end-line="589" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../stretchr/testify/suite/suite.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbase/project_repository.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#15#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/project.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/sqlmock.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/expectations.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="127" column="31" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Go/src/database/sql/driver/driver.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="366" column="5" selection-start-line="366" selection-start-column="5" selection-end-line="366" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../jinzhu/gorm/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,50 +199,31 @@
         <option value="$PROJECT_DIR$/database/project_crud.go" />
         <option value="$PROJECT_DIR$/repositories/project_controller.go" />
         <option value="$PROJECT_DIR$/controllers/project_controller.go" />
-        <option value="$PROJECT_DIR$/models/project.go" />
         <option value="$PROJECT_DIR$/database/project_repository.go" />
         <option value="$PROJECT_DIR$/database/db.go" />
         <option value="$PROJECT_DIR$/database/project_repository_test.go" />
-        <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/dbase/project_repository_test.go" />
         <option value="$PROJECT_DIR$/dbase/db.go" />
+        <option value="$PROJECT_DIR$/models/project.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/dbase/project_repository.go" />
+        <option value="$PROJECT_DIR$/dbase/project_repository_test.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2366" />
-    <option name="y" value="240" />
-    <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="x" value="170" />
+    <option name="y" value="91" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="base_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base_project" type="462c0819:PsiDirectoryNode" />
-              <item name="dbase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="base_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="base_project" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,8 +235,10 @@
     <property name="database.console.LAST_STATE" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bxcodec/go-clean-arch" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -179,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Test.go test github.com/braulio94/base_project/dbase">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="base_project" />
       <working_directory value="$PROJECT_DIR$" />
@@ -222,9 +301,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/braulio94/base_project/dbase" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestInit in github.com/braulio94/base_project/dbase" />
-        <item itemvalue="Go Test.go test github.com/braulio94/base_project/dbase" />
         <item itemvalue="Go Test.go test github.com/braulio94/base_project/database" />
       </list>
     </recent_temporary>
@@ -241,6 +320,7 @@
       <updated>1571222346496</updated>
       <workItem from="1571222348763" duration="11852000" />
       <workItem from="1571299070031" duration="8626000" />
+      <workItem from="1571504781236" duration="17798000" />
     </task>
     <task id="LOCAL-00001" summary="add database postgres connection">
       <created>1571233776782</created>
@@ -267,57 +347,78 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_github_com_braulio94_base_project_database - 2019.10.18 at 10h 27m 11s.xml">
-      <configuration name="go test github.com/braulio94/base_project/database" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_braulio94_base_project_database - 2019.10.18 at 10h 30m 56s.xml">
-      <configuration name="go test github.com/braulio94/base_project/database" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.18 at 10h 42m 17s.xml">
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 11h 05m 07s.xml">
       <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInit_in_github_com_braulio94_base_project_dbase - 2019.10.18 at 10h 45m 26s.xml">
-      <configuration name="TestInit in github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 11h 05m 24s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInit_in_github_com_braulio94_base_project_dbase - 2019.10.18 at 10h 46m 08s.xml">
-      <configuration name="TestInit in github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 11h 05m 47s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInit_in_github_com_braulio94_base_project_dbase - 2019.10.18 at 10h 47m 06s.xml">
-      <configuration name="TestInit in github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 11h 06m 05s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 11h 10m 16s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 11h 59m 51s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 19h 49m 46s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.20 at 19h 50m 35s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.21 at 06h 05m 26s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_github_com_braulio94_base_project_dbase - 2019.10.21 at 06h 18m 10s.xml">
+      <configuration name="go test github.com/braulio94/base_project/dbase" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35990000" />
+    <option name="totallyTimeSpent" value="53788000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-1" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12846482" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5013423" side_tool="true" weight="0.3282313" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50226927" side_tool="true" weight="0.61734694" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.4986577" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="3" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="4" sideWeight="0.4986577" weight="0.3282313" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="6" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.43228602" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49848714" weight="0.59013605" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.4977307" weight="0.61734694" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5005417" side_tool="true" visible="true" weight="0.19669509" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32993197" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Flutter Inspector" order="1" />
       <window_info anchor="right" id="Flutter Outline" order="2" />
-      <window_info anchor="right" id="Database" order="3" sideWeight="0.4980916" weight="0.19669509" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.4980916" weight="0.19667171" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -325,6 +426,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5005417" side_tool="true" visible="true" weight="0.19669509" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,6 +558,36 @@
     <MESSAGE value="initiated project structure" />
     <option name="LAST_COMMIT_MESSAGE" value="initiated project structure" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dbase/project_repository_test.go</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dbase/project_repository_test.go</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dbase/project_repository_test.go</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/dbase/project_repository.go</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/base_project$TestInit_in_github_com_braulio94_base_project_dbase.out" NAME="TestInit in github.com/braulio94/base_project/dbase Coverage Results" MODIFIED="1571391966146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -469,25 +601,9 @@
     </entry>
     <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/project_status" />
     <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/project_submenu_item" />
-    <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/projects">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="5cf8e1ee-099c-4d55-80b3-345942c1bd91">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/projects" />
     <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/project_submenu" />
-    <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/project_menu">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="5cf8e1ee-099c-4d55-80b3-345942c1bd91">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://0bf62bf1-43a1-454d-92b3-9b08a3c03b48/database/project/schema/public/table/project_menu" />
     <entry file="file://$PROJECT_DIR$/models/submenu_item.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -516,14 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../jinzhu/gorm/main.go" />
+    <entry file="file://$PROJECT_DIR$/../../../builtin/builtin.go" />
     <entry file="file://$PROJECT_DIR$/db1.JPG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -537,34 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/satori/go.uuid/uuid.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/satori/go.uuid/generator.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/DATA-DOG/go-sqlmock/sqlmock.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../stretchr/testify/suite/suite.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="123" column="30" lean-forward="true" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../satori/go.uuid/generator.go" />
     <entry file="file://$PROJECT_DIR$/../../adigunhammedolalekan/go-contacts/controllers/contactsControllers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-311">
@@ -585,64 +667,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/project.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#16#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbase/project_repository.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="e#18#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/DATA-DOG/go-sqlmock/driver.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dbase/db.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/examples/basic/basic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/runtime/debug.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/sync/atomic/asm.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/runtime/atomic_pointer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <caret line="5038" selection-start-line="5038" selection-end-line="5038" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/sync/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/sync/mutex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/context/context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/database/sql/sql.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="748" selection-start-line="748" selection-end-line="748" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/driver.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <element signature="e#18#185#0" expanded="true" />
+            <element signature="e#17#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jinzhu/gorm/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/encoding/hex/hex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../satori/go.uuid/uuid.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/rows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/project.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/sqlmock.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../DATA-DOG/go-sqlmock/expectations.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="127" column="31" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/database/sql/driver/driver.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="366" column="5" selection-start-line="366" selection-start-column="5" selection-end-line="366" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="589" selection-start-line="589" selection-end-line="589" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../stretchr/testify/suite/suite.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbase/project_repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#15#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dbase/project_repository_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <element signature="e#15#348#0" expanded="true" />
+            <element signature="e#15#276#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/go/src/github.com/jinzhu/gorm/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9979">
-          <caret line="596" column="9" selection-start-line="595" selection-start-column="23" selection-end-line="596" selection-end-column="9" />
         </state>
       </provider>
     </entry>
